@@ -1,0 +1,39 @@
+{
+  "name": "smartological",
+  "description": "Smartological is a professional development and grooming service offering CV/Resume and digital profile consultation.",
+  "homepage": "https://smartological.com",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Smartological/smartological-website.git"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^3.1.2",
+    "astro": "^2.3.4",
+    "tailwindcss": "^3.3.2"
+  },
+  "contributors": [
+    {
+      "name": "Md. Nazmul Huda",
+      "email": "me@nazmul-huda.com",
+      "url": "https://nazmul-huda.com"
+    }
+  ],
+  "keywords": [
+    "cv",
+    "resume",
+    "professional",
+    "linkedin",
+    "profile"
+  ],
+  "license": "UNLICENSED"
+}
