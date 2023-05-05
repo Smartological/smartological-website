@@ -6,10 +6,10 @@ module.exports = {
   ],
   theme: {
     colors: {
-      black: "hsl(218, 100%, 4%)",
-      blue: "hsl(218, 100%, 41%)",
-      orange: "hsl(27, 100%, 49%)",
-      white: "hsl(218, 0%, 100%)"
+      black: "hsl(224, 37%, 7%)",
+      blue: "hsl(224, 40%, 43%)",
+      orange: "hsl(15, 73%, 57%)",
+      white: "hsl(224, 0%, 100%)"
     },
     extend: {}
   },
