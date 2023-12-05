@@ -1,12 +1,11 @@
 import type { Metadata } from 'next'
 import { Crimson_Pro } from 'next/font/google'
-
 import './globals.css'
 import { cn } from '@/lib/utils'
 
-const font = Crimson_Pro({
+const crimsonpro = Crimson_Pro({
+  display: 'swap',
   fallback: ['sans-serif'],
-  preload: true,
   subsets: ['latin'],
   weight: ['300', '500']
 })
@@ -23,12 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body
-        className={cn(
-          font.className,
-          'bg-primary flex h-screen items-center justify-center font-light text-muted text-2xl w-screen'
-        )}
-      >
+      <body className={crimsonpro.className}>
         {children}
       </body>
     </html>

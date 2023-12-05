@@ -1,8 +1,8 @@
-export default function Logo() {
+export default function Logo({ width }: { width: number }) {
   return (
     <svg
-      width='100%'
-      height='100%'
+      width={`${width}`}
+      height={`${(width * 102) / 500}`}
       viewBox='0 0 500 102'
       xmlns='http://www.w3.org/2000/svg'
       style={{
