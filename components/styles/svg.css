@@ -1,0 +1,16 @@
+.evenodd {
+  clip-rule: evenodd;
+  fill-rule: evenodd;
+}
+
+.nonzero {
+  fill-rule: nonzero;
+}
+
+.rounded-stroke {
+  stroke-linejoin: round;
+}
+
+.stroke-miterlimit-2 {
+  stroke-miterlimit: 2;
+}

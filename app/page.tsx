@@ -1,12 +1,13 @@
-import Logo from '@/components/logo'
+import { HorizontalLogo } from '@/components/logo'
 
+// homepage
 export default function Home() {
   return (
-    <>
-      <main className='h-screen w-screen bg-[#42599a] text-white text-3xl font-light flex flex-col items-center justify-center gap-1'>
-        <Logo width={500} />
-        <p>We&apos;re coming soon!!</p>
-      </main>
-    </>
+    <main>
+      <header className='bg-primary dark flex flex-col gap-2 h-screen items-center justify-center w-screen'>
+        <HorizontalLogo width={500} />
+        <p className='text-3xl'>We&rsquo;re coming soon!!!</p>
+      </header>
+    </main>
   )
 }
