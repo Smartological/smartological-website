@@ -2,13 +2,14 @@
 import '@/components/styles/svg.css'
 
 // horizontal logo
-export function HorizontalLogo({ width }: { width: number }) {
+export function HorizontalLogo() {
   return (
     <svg
-      width={width}
+      width='100%'
+      height='100%'
       viewBox='0 0 500 77'
       xmlns='http://www.w3.org/2000/svg'
-      className='evenodd h-auto rounded-stroke stroke-miterlimit-2'
+      className='evenodd h-auto max-w-lg rounded-stroke stroke-miterlimit-2 w-4/5'
     >
       <g transform='matrix(0.179692,0.0719166,-0.0719166,0.179692,206.337,-35.8307)'>
         <path
@@ -128,13 +129,14 @@ export function HorizontalLogo({ width }: { width: number }) {
   )
 }
 
-export function Icon({ width }: { width: number }) {
+export function Icon() {
   return (
     <svg
-      width={width}
+      width='100%'
+      height='100%'
       viewBox='0 0 194 91'
       xmlns='http://www.w3.org/2000/svg'
-      className='evenodd h-auto rounded-stroke stroke-miterlimit-2'
+      className='evenodd h-auto max-w-64 rounded-stroke stroke-miterlimit-2 w-3/5'
     >
       <g transform='matrix(0.32426,0.129776,-0.129776,0.32426,55.9182,-79.3092)'>
         <path
@@ -176,13 +178,14 @@ export function Icon({ width }: { width: number }) {
   )
 }
 
-export function VerticalLogo({ width }: { width: number }) {
+export function VerticalLogo() {
   return (
     <svg
-      width={width}
+      width='100%'
+      height='100%'
       viewBox='0 0 336 161'
       xmlns='http://www.w3.org/2000/svg'
-      className='evenodd h-auto rounded-stroke stroke-miterlimit-2'
+      className='evenodd h-auto max-w-96 rounded-stroke stroke-miterlimit-2 w-5/6'
     >
       <g transform='matrix(0.301686,0.120741,-0.120741,0.301686,207.243,-73.7879)'>
         <path
