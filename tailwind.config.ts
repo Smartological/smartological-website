@@ -1,9 +1,5 @@
-// npm imports
 import type { Config } from 'tailwindcss'
 
-const { fontFamily } = require('tailwindcss/defaultTheme')
-
-// tailwind configuration
 const config = {
   darkMode: ['class'],
   content: [
@@ -35,6 +31,11 @@ const config = {
         secondary: {
           DEFAULT: 'hsl(var(--secondary))',
           foreground: 'hsl(var(--secondary-foreground))'
+        },
+        logo: {
+          DEFAULT: 'hsl(var(--logo))',
+          border: 'hsl(var(--logo-border))',
+          secondary: 'hsl(var(--logo-secondary))'
         },
         destructive: {
           DEFAULT: 'hsl(var(--destructive))',
@@ -75,11 +76,6 @@ const config = {
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out'
-      },
-      fontFamily: {
-        sans: ['var(--font-sans)', ...fontFamily.sans],
-        serif: ['var(--font-serif)', ...fontFamily.serif],
-        mono: ['var(--font-mono)', ...fontFamily.mono]
       }
     }
   },
